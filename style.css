@@ -1,0 +1,95 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/diamond.png); 
+    color: #333333;
+
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white ;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: chocolate;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: chartreuse;
+    color: black;
+    font-style: italic;
+}
+
+.hero {
+    height: 250px;
+    background-image: url(img/hero.gif);
+    background-size: cover;
+    background-position: 0 -250px;
+    border-top: 5px solid lightcoral;
+    border-bottom: 5px solid lightcoral;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+
+.content {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.content .penulis a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+.content .penulis a:hover {
+    background-color: chartreuse;
+    color: black;
+    font-style: italic;
+}
+.content .penulis {
+    font-size: 11px;
+    margin-top: 15px;
+    
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: chocolate;
+    padding: 3px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+}
